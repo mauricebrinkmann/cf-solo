@@ -28,4 +28,4 @@ docker run \
   --volume ~/.cfsolo/nfs:/var/vcap/nfs/shared \
   --volume ~/.cfsolo/data:/var/vcap/data \
   --privileged --cap-drop=SYS_ADMIN \
-  cfsolo/cfsolo
+  mauricebrinkmann/cfsolo
